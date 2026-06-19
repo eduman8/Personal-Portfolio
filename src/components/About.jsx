@@ -19,7 +19,7 @@ function About() {
           </p>
           <p>
             My current stack includes JavaScript, React, Redux, Node.js,
-            Express, PostgreSQL, HTML and CSS. I care about readable code,
+            Express, PostgreSQL, Microsoft SQL Server, HTML and CSS. I care about readable code,
             responsive layouts, clear user flows and features that solve real
             needs.
           </p>
