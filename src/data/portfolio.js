@@ -16,7 +16,7 @@ export const projects = [
     description:
       'A production-ready e-commerce platform built for a ceramic design brand, featuring product catalog management, Google authentication, persistent shopping cart functionality, Mercado Pago payments, customer order tracking, email notifications, and a dedicated administration panel.',
     demoUrl: 'https://hartashop.com',
-    githubUrl: 'https://github.com/Eduman8/-Harta-web',
+    githubUrl: 'https://github.com/eduman8/Harta-Web',
     image: '/harta-preview.png',
     imageFit: 'cover',
     imagePosition: 'center top',
