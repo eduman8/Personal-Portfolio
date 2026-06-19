@@ -45,7 +45,7 @@ export const projects = [
     description:
       "Full-stack agricultural platform connected to Microsoft SQL Server, providing access to over 2,000 spare parts and machinery products. Designed for real business operations, including inventory consultation, product search, customer inquiries, and scalable catalog management.",
     demoUrl: '',
-    githubUrl: 'https://github.com/Eduman8/AgroBarcelo-Web',
+    githubUrl: 'https://github.com/eduman8/AgroventasBarcelo-Web',
     image: '/agroventas-barcelo-preview.png',
     imageFit: 'cover',
     imagePosition: 'center',
@@ -66,7 +66,7 @@ export const projects = [
     description:
       'Country explorer built with React, Redux and REST API integration, featuring search, filters, sorting, pagination, detail pages and tourist activity creation.',
     demoUrl: 'https://countries-nine-liard.vercel.app/',
-    githubUrl: 'https://github.com/Eduman8/PI-Countries',
+    githubUrl: 'https://github.com/eduman8/Pi-Countries',
     image: 'https://res.cloudinary.com/dbkfkpjjl/image/upload/v1778621409/Screenshot_2026-05-12_at_18-29-40_Henry_Countries_cytolr.png',
     imageFit: 'contain',
     imagePosition: 'top center',
