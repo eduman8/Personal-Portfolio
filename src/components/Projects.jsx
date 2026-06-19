@@ -9,8 +9,8 @@ function Projects() {
           <h2>Selected work</h2>
           <p>
             Selected projects that show my experience building real interfaces,
-            full-stack flows, API integrations and production-oriented features,
-            including applications I am actively developing.
+            full-stack flows, API integrations and production deployments for real
+            business use cases.
           </p>
         </div>
 
@@ -32,7 +32,10 @@ function Projects() {
             ].filter(Boolean);
 
             return (
-              <article className="project-card" key={project.title}>
+              <article
+                className={`project-card${project.featured ? ' project-card--featured' : ''}`}
+                key={project.title}
+              >
                 <div className="project-media">
                   <img
                     className={`project-image project-image--${project.imageFit ?? 'cover'}`}
@@ -55,6 +58,13 @@ function Projects() {
                     <h3>{project.title}</h3>
                     <p>{project.description}</p>
                   </div>
+                  {project.features ? (
+                    <ul className="project-feature-list" aria-label={`${project.title} key features`}>
+                      {project.features.map((feature) => (
+                        <li key={feature}>{feature}</li>
+                      ))}
+                    </ul>
+                  ) : null}
                   <ul className="tag-list" aria-label={`${project.title} technologies`}>
                     {project.stack.map((technology) => (
                       <li key={technology}>{technology}</li>
